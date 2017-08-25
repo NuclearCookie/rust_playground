@@ -1,0 +1,32 @@
+/* need a beep object.
+
+Simple beep object:
+- frequency
+- duration
+- loop
+- complete callback
+
+optional:
+read a structure with a beep description. ( like json ). It would allow more complex beep sequences
+*/
+
+#[derive(Debug)]
+struct Beep {
+    frequency: f32,
+    duration: i32,
+}
+
+impl Beep {
+    pub fn beep() {
+
+    }
+
+    pub fn set_frequency(frequency_in_hz:f32) {
+
+    }
+
+    pub fn set_beep_duration(time:i32) {
+
+    }
+}
+

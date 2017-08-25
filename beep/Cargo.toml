@@ -1,0 +1,8 @@
+[package]
+name = "beep"
+version = "0.1.0"
+authors = ["Pieter Vantorre <pieter.vantorre@fishingcactus.com>"]
+
+[dependencies]
+futures = "0.1.10"
+cpal = "0.4.4"
